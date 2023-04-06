@@ -17,7 +17,8 @@
     "egg-ci": "^2.2.0",
     "egg-mock": "^5.10.6",
     "eslint": "^8.37.0",
-    "eslint-config-egg": "^12.2.1"
+    "eslint-config-egg": "^12.2.1",
+    "sequelize-cli": "^6.6.0"
   },
   "engines": {
     "node": ">=16.0.0"
