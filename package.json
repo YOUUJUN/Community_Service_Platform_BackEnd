@@ -10,7 +10,8 @@
     "egg": "^3.15.0",
     "egg-scripts": "^2.17.0",
     "egg-sequelize": "^6.0.0",
-    "mysql2": "^3.2.3"
+    "mysql2": "^3.2.3",
+    "sequelize-auto": "^0.8.8"
   },
   "devDependencies": {
     "egg-bin": "^5.13.4",
@@ -33,7 +34,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "ci": "npm run lint && npm run cov"
+    "ci": "npm run lint && npm run cov",
+    "migrate" : "sequelize-auto -o './app/model' -d 'community' -h 'localhost' -u 'root' -x '123456' -p '3306' --dialect mysql -a"
   },
   "ci": {
     "version": "16, 18",
