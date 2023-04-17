@@ -22,9 +22,9 @@ module.exports = (appInfo) => {
 		dialect: 'mysql',
 		host: 'localhost',
 		port: 3306,
-		database: 'egg-sequelize-default',
+		database: 'community',
 		username: 'root',
-		password: '',
+		password: '123456',
 	}
 
 	// add your user config here
